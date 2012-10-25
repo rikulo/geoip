@@ -3,7 +3,7 @@
 // Author: hernichen
 
 /** Singleton SmartIP service */
-SmartIP smartip = new SmartIP();
+SmartIP smartip = new SmartIP._internal();
 
 /**
  * Bridge Dart to Smart-IP.net Geo IP API; see http://smart-ip.net/geoip-api
@@ -13,6 +13,10 @@ class SmartIP {
   const String _BASE_URI = "http://smart-ip.net/geoip-json?";
   const String _GEO_IP = "geoip";
   static int _fnnum = 0;
+
+  factory SmartIP() => smartip;
+
+  SmartIP._internal() {}
 
   /** Load geo information per the specified [host]/IP in a Map via
    * returned Future.then() method.
