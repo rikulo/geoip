@@ -6,7 +6,7 @@ library rikulo_geoip;
 
 import 'dart:html';
 import 'dart:json';
-import 'package:js/js.dart' as js;
-import 'package:rikulo_commons/html.dart';
+//import 'package:js/js.dart' as js;
+//import 'package:rikulo_commons/html.dart';
 
 part 'src/SmartIP.dart';

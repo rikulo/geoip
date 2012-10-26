@@ -6,7 +6,7 @@
 SmartIP smartip = new SmartIP._internal();
 
 /**
- * Bridge Dart to Smart-IP.net Geo IP API; see http://smart-ip.net/geoip-api
+ * Bridge Dart to Smart-IP.net Geo IP API; see <http://smart-ip.net/geoip-api>
  *  for details. Retrieve Geo IP information per the provided host/IP address.
  */
 class SmartIP {
@@ -18,15 +18,17 @@ class SmartIP {
 
   SmartIP._internal() {}
 
-  /** Load geo information per the specified [host]/IP in a Map via
-   * returned Future.then() method.
+  /** Load geo information per the specified host/IP in a Map via
+   * returned Future.then((Map result) {...}) method.
+   *
    * + [host] the IP address or host name to look for geo information; default
    * to the IP of the calling client. See section "Building Queries" of
-   * http://smart-ip.net/geoip-api for details.
+   * <http://smart-ip.net/geoip-api> for details.
    * + [type] network type; default to "auto". Meaning for if host is a name.
-   * See section "Building Queries" of http://smart-ip.net/geoip-api for details.
+   * See section "Building Queries" of <http://smart-ip.net/geoip-api> for
+   * details.
    * + [lang] language of a query; default to auto-detection. See section
-   * "Building Queries" of http://smart-ip.net/geoip-api for details.
+   * "Building Queries" of <http://smart-ip.net/geoip-api> for details.
    */
   Future<Map> loadIPGeoInfo({String host, String type, String lang}) {
     StringBuffer params = new StringBuffer();
