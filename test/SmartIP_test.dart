@@ -1,4 +1,4 @@
-import 'package:rikulo_geoip/rikulo_geoip.dart';
+import 'package:rikulo_geoip/smartip.dart';
 
 void main() {
 

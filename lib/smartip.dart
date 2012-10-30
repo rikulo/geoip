@@ -2,7 +2,7 @@
 //History: Thu, Oct 18, 2012  03:21:02 PM
 // Author: hernichen
 
-library rikulo_geoip;
+library rikulo_smartip;
 
 import 'dart:html';
 import 'dart:json';
