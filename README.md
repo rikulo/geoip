@@ -5,9 +5,9 @@ the on-line geo-ip JavaScript service provided by smart-ip.net.
 
 * [Home](http://rikulo.org)
 * [Documentation](http://docs.rikulo.org)
-* [API Reference](http://api.rikulo.org/rikulo-geoip/latest)
+* [API Reference](http://api.rikulo.org/geoip/latest)
 * [Discussion](http://stackoverflow.com/questions/tagged/rikulo)
-* [Issues](https://github.com/rikulo/rikulo-geoip/issues)
+* [Issues](https://github.com/rikulo/geoip/issues)
 
 Rikulo GeoIP is distributed under the Apache 2.0 License.
 
@@ -28,7 +28,7 @@ To install stuff that is still in development, add this to your `pubspec.yam`:
 
     dependencies:
       rikulo_geoip:
-        git: git://github.com/rikulo/rikulo-geoip.git
+        git: git://github.com/rikulo/geoip.git
 
 For more information, please refer to [Pub: Dependencies](http://pub.dartlang.org/doc/pubspec.html#dependencies).
 
